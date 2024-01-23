@@ -1,0 +1,35 @@
+@media (max-width: 675px) {
+    .container-nav {
+      flex-direction: column;
+    }
+    header {
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 675px) {
+    nav ul {
+      flex-direction: column;
+    }
+    nav li {
+      margin: 0.5em 0;
+    }
+  }
+
+/*home page*/
+@media (max-width: 600px) {
+    .landing-text h1 {
+      font-size: 260%;
+    }
+  }
+  @media (max-width: 800px) {
+    .btn-hire {
+      padding: 8px 16px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .gallery-header h1 {
+      font-size: x-large;
+    }
+  }
