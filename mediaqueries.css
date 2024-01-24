@@ -7,6 +7,7 @@
     }
   }
 
+
   @media (max-width: 675px) {
     nav ul {
       flex-direction: column;
@@ -28,8 +29,50 @@
     }
   }
 
+  /*gallery*/
   @media (max-width: 600px) {
     .gallery-header h1 {
       font-size: x-large;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  /*booking section*/
+
+
+  /*Team section*/
+  @media (max-width: 600px) {
+    .team h1 {
+      font-size: x-large;
+    }
+  }
+  @media (max-width: 800px) {
+    .team .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .team .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
     }
   }
