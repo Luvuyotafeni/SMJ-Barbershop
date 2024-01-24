@@ -268,11 +268,7 @@ nav li {
   text-align: center; /* Center the text */
 }
 
-@media (max-width: 576px) {
-  .about-header {
-    text-align: center;
-  }
-}
+
 
 .about-header h1 {
   font-weight: 700;
@@ -284,7 +280,7 @@ nav li {
   color: #181b2c;
 }
 
-/* Contact SEction */
+/* Contact Section */
 .contact h1 {
   text-align: center;
   font-weight: 700;
@@ -348,12 +344,7 @@ textarea {
   background-color: #0b203b;
   color: white;
 }
-@media (max-width: 800px) {
-  .flex-item-left,
-  .flex-item-right {
-    flex: 100%;
-  }
-}
+
 /* Footer */
 footer {
   padding: 10px;
