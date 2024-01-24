@@ -19,6 +19,11 @@ function scrollToTop() {
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
 }
 
+function toggleMenu() {
+    var menuLinks = document.querySelector('.menu-links');
+    menuLinks.classList.toggle('open');
+}
+
 function bookAppointment() {
     var nameInput = document.getElementById('name');
     var surnameInput = document.getElementById('surname');
